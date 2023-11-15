@@ -30,11 +30,11 @@ resource "aws_launch_template" "launch_template" {
 
     <html>
         <body>
-        <h1>We must stay focused, my brothers!!!</h1><br/>
+        <h1>Houston Tech is live</h1><br/>
         <video width="406" height="720" autoplay controls loop>
             <source src="https://ohbster-homework-bucket.s3.amazonaws.com/dance.mp4" type="video/mp4">
         </video>
-        <br/><h1>Stay focused Theo's class</h1>
+        <br/><h1>by Houston Tech</h1>
         <div>
             <p><b>Instance Name:</b> $(hostname -f) </p>
             <p><b>Instance Private Ip Address: </b> $local_ipv4</p>
