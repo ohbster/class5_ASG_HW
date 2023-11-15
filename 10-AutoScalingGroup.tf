@@ -25,7 +25,7 @@ resource "aws_autoscaling_group" "app1_asg" {
     name                  = "instance-protection-launch"
     lifecycle_transition  = "autoscaling:EC2_INSTANCE_LAUNCHING"
     default_result        = "CONTINUE"
-    heartbeat_timeout     = 60
+    heartbeat_timeout     = 180
     notification_metadata = "{\"key\":\"value\"}"
   }
 
